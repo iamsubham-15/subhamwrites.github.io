@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SubhamWrites</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 60px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #2c3e50;
+    }
+    footer {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SubhamWrites</h1>
+    <p>Professional Email Copywriting That Converts</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Hi, I’m Subham — a passionate email copywriter dedicated to crafting cold emails that don’t just land in inboxes, but get opened, read, and clicked. I bring clarity, confidence, and a corporate-friendly tone that gets results.</p>
+  </section>
+
+  <section>
+    <h2>What I Do</h2>
+    <p>I specialize in B2C promotional email copy. Whether you're launching a new product or want to drive more traffic and conversions, I’ll help you write emails your audience won’t ignore.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Need copy that clicks? Reach out via Fiverr: <br><strong>fiverr.com/subhamwrites</strong></p>
+  </section>
+
+  <footer>
+    &copy; 2025 SubhamWrites. All rights reserved.
+  </footer>
+</body>
+</html>
