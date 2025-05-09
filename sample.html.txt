@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SubhamWrites</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 40px; }
+    h1 { color: #2c3e50; }
+    p { color: #555; }
+  </style>
+</head>
+<body>
+  <h1>Welcome to SubhamWrites!</h1>
+  <p>I write emails that get clicks. Stay tuned.</p>
+</body>
+</html>
