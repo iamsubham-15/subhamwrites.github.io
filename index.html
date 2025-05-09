@@ -2,37 +2,62 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SubhamWrites</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: Arial, sans-serif;
-      background: #f9f9f9;
-      color: #333;
-      margin: 0;
-      padding: 0;
-      text-align: center;
+      font-family: 'Inter', sans-serif;
+      background: #fefefe;
+      color: #222;
+      line-height: 1.6;
     }
     header {
       background: #2c3e50;
-      color: white;
+      color: #fff;
       padding: 60px 20px;
+      text-align: center;
     }
-    header h1 {
-      margin: 0;
-      font-size: 3em;
-    }
+    header h1 { font-size: 3em; }
+    header p { font-size: 1.2em; margin-top: 10px; }
     section {
-      padding: 40px 20px;
-      max-width: 800px;
+      padding: 50px 20px;
+      max-width: 900px;
       margin: auto;
     }
     h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
       color: #2c3e50;
+    }
+    .portfolio-item, .testimonial {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+    form button {
+      background: #2c3e50;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1em;
     }
     footer {
       background: #2c3e50;
-      color: white;
+      color: #fff;
+      text-align: center;
       padding: 20px;
       font-size: 0.9em;
     }
@@ -41,22 +66,50 @@
 <body>
   <header>
     <h1>SubhamWrites</h1>
-    <p>Professional Email Copywriting That Converts</p>
+    <p>Email Copywriting That Converts</p>
   </header>
 
   <section>
     <h2>About Me</h2>
-    <p>Hi, I’m Subham — a passionate email copywriter dedicated to crafting cold emails that don’t just land in inboxes, but get opened, read, and clicked.</p>
+    <p>I’m Subham — an email copywriter who helps brands connect with customers through clear, confident, and conversion-focused messaging. From cold emails to full campaigns, I write with purpose and strategy.</p>
   </section>
 
   <section>
-    <h2>What I Do</h2>
-    <p>I specialize in B2C promotional email copy. Whether you're launching a new product or want to drive more conversions, I’ll help you write emails your audience won’t ignore.</p>
+    <h2>What I Offer</h2>
+    <p>I write high-impact cold emails, promotional sequences, and B2C emails that build engagement and drive results. Whether you're launching a product, building a list, or promoting a service, I can help.</p>
   </section>
 
   <section>
-    <h2>Contact</h2>
-    <p>Need copy that clicks? Reach out via Fiverr:<br><strong>fiverr.com/subhamwrites</strong></p>
+    <h2>Portfolio</h2>
+    <div class="portfolio-item">
+      <strong>Cold Email Sequence – SaaS Product Launch</strong>
+      <p>A 4-part cold email series that achieved 52% open rates and 14% reply rate for a B2C SaaS tool.</p>
+    </div>
+    <div class="portfolio-item">
+      <strong>Promotional Email – Product Deal</strong>
+      <p>A short, sharp promotional email for a skincare brand that drove 600+ clicks in 3 days.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"Subham totally nailed the voice we needed — confident, concise, and effective. Definitely working again!" – Client from Fiverr</p>
+    </div>
+    <div class="testimonial">
+      <p>"One of the best copywriters I’ve hired. Great at cold emails." – Marketing Agency</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p>Or find me on Fiverr: <strong>fiverr.com/subhamwrites</strong></p>
   </section>
 
   <footer>
